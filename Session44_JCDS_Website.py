@@ -15,7 +15,7 @@ if 'encoder' not in sl.session_state:
 
 # load the model
 if 'model' not in sl.session_state:
-    sl.session_state['model'] = pickle.load(open('Model LR Smote.sav', 'rb'))
+    sl.session_state['model'] = pickle.load(open('Model LR.sav', 'rb'))
 
 """
     Selamat datang di Website kami!
